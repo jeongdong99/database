@@ -1,5 +1,5 @@
 # Dockerfile
-FROM mysql:latest
+FROM mysql
 
 # 초기화 스크립트 복사
 COPY init.sql /docker-entrypoint-initdb.d/
